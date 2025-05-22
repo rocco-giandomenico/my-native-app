@@ -5,7 +5,7 @@ import Colors from '../theme/colors';
 export default function NotFoundScreen() {
     return (
         <>
-            <Stack.Screen options={{ title: 'Page not fond!...0' }} />
+            <Stack.Screen options={{ title: 'Page not fond!...' }} />
             <View style={styles.container}>
                 <Text style={styles.text}>Oops! Not Found</Text>
             </View>
